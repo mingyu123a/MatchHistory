@@ -25,6 +25,7 @@ public class UserEntity {
 
 
 
+
     @OneToMany
     @JoinColumn(name = "community")
     private List<CommunityEntity> community = new ArrayList<>();
